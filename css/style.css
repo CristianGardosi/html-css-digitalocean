@@ -23,6 +23,11 @@ body{
     color: #777777;
 }
 
+h2{
+    font-weight: 700;
+    color: #031b4e;
+}
+
 h3{
     font-size: 25px;
     font-weight: 700;
@@ -121,6 +126,13 @@ h3{
     }
 }
 
+/* DEPLOY AND SCALE (2 part main area) */
 
+.deploy-and-scale-left{
+    line-height: 50px;
+}
 
-
+.deploy-and-scale-left ul li a{
+    color: #777777;
+    text-decoration: none;
+}
