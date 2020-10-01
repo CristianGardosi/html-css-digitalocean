@@ -1,7 +1,7 @@
 /* GENERAL STYLES */
 body{
     margin: 0;
-    padding: 0;
+    padding: 50px 0;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -73,6 +73,19 @@ h4{
 
 .navbar-brand img {
     height:100%;
+    margin-right: 40px;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+
+    .navbar-center,
+    .navbar-right {
+        display: none;
+    }
 }
 
 /* JUMBOTRON */
@@ -86,6 +99,10 @@ h4{
     background: white;
     padding: 25px;
     border-radius: 20px;
+}
+
+.form-group button img{
+    width: 20px;
 }
 
 /* PARTNER SLIDER (1 part main area) */
@@ -104,13 +121,21 @@ h4{
     max-width: 100%;
 }
 /* Media for xs / sm / md */
-@media screen and (max-width: 992px){
+@media screen and (max-width: 767px){
+    .sliders-img ul li{
+        display: inline-block;
+        width: calc((100% / 2) - 30px);
+        margin: 0 10px;
+    }
+    
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
     .sliders-img ul li{
         display: inline-block;
         width: calc((100% / 3) - 30px);
         margin: 0 10px;
     }
-    
+
 }
 
 /* DEPLOY AND SCALE (2 part main area) */
