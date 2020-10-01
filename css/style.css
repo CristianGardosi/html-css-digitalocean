@@ -1,5 +1,7 @@
 /* GENERAL STYLES */
 body{
+    margin: 0;
+    padding: 0;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -14,7 +16,11 @@ body{
 }
 
 .text-light-grey{
-    color: #d7d7d7;
+    color: #b2b2b2;
+}
+
+.text-grey{
+    color: #777777;
 }
 
 h3{
@@ -44,6 +50,10 @@ h3{
 .mt-50{
     margin-top: 50px;
 }
+/* Background */
+.bg-grey{
+    background: #f3f5f9;
+}
 
 /* NAV BAR */
 .header-navbar .navbar{
@@ -54,32 +64,63 @@ h3{
 }
 
 .navbar-brand img {
-    height: 150%;
+    width: 150px;
 }
+
 
 /* JUMBOTRON */
 .jumbotron{
     background-image: url(../img/bg-banner-home.jpg);
     background-size: cover;
-}
-
-.jumbo-left{
+    margin-bottom: 0;
 }
 
 .jumbo-right{
     background: white;
-    padding: 30px;
+    padding: 25px;
     border-radius: 20px;
 }
 
-.form-group input [type="email"]{
-    height: 20px;
+/* PARTNER SLIDER (1 part main area) */
+.partner-sliders .sliders-intro h4{
+    margin: 0;
+    padding: 20px;
 }
 
-.jumbo-right .form-group btn{
-    padding-top: 0;
-    padding-bottom: 0;
+.sliders-img ul li{
+    display: inline-block;
+    width: calc((100% / 6) - 30px);
+    margin: 0 10px;
 }
+
+.sliders-img ul li img{
+    max-width: 100%;
+}
+/* Media for xs / sm */
+@media screen and (max-width: 575px){
+    .sliders-img ul li{
+        display: inline-block;
+        width: calc((100% / 2) - 30px);
+        margin: 0 10px;
+    }
+    
+    .sliders-img ul li img{
+        max-width: 100%;
+    }
+}
+/* Media for md */
+@media screen and (max-width: 767px){
+    .sliders-img ul li{
+        display: inline-block;
+        width: calc((100% / 3) - 30px);
+        margin: 0 10px;
+    }
+    
+    .sliders-img ul li img{
+        max-width: 100%;
+    }
+}
+
 
 
 
