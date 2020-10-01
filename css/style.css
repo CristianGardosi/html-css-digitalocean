@@ -69,14 +69,11 @@ h4{
 .header-navbar .navbar{
     padding: 10px 0;
     margin-bottom: 0;
-    background: white;
-    border-bottom: 1px solid black;
 }
 
 .navbar-brand img {
     height:100%;
 }
-
 
 /* JUMBOTRON */
 .jumbotron{
@@ -129,4 +126,8 @@ h4{
 
 .deploy-and-scale-right img{
     width: 25px;
+}
+
+.deploy-and-scale-right .row{
+    margin-bottom: 20px;
 }
