@@ -1,0 +1,63 @@
+/* GENERAL STYLES */
+body{
+    font-family: Arial, sans-serif;
+}
+
+/* UTILITIES */
+/* Typography */
+h2{
+
+}
+
+h3{
+
+}
+/* Buttons */
+.btn-personal{
+    background: white; 
+    color: #2485fd;
+    border: 1px solid #2485fd;
+}
+/* Margin */
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+/* NAV BAR */
+.header-nav {
+    line-height: 60px;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+}
+/* Logo */
+.navbar-general .nav-logo{
+
+}
+.navbar-general .nav-logo img{
+    max-width: 150px;
+}
+/* Center and right area */
+.navbar-general .nav-center .nav-center-elements ul li a,
+.navbar-general .nav-right .nav-right-elements ul li a
+{
+    font-size: 17px;
+    color: #5b6987;
+    text-decoration: none;
+}
+@media and screen (max-width: 992px){
+    
+}
+
+
