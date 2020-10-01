@@ -33,6 +33,11 @@ h3{
     font-weight: 700;
 }
 
+h4{
+    font-weight: 700;
+    color: #031b4e;
+}
+
 /* Buttons */
 .btn-outline-primary{
     background: white; 
@@ -69,7 +74,7 @@ h3{
 }
 
 .navbar-brand img {
-    width: 150px;
+    height:100%;
 }
 
 
@@ -101,29 +106,14 @@ h3{
 .sliders-img ul li img{
     max-width: 100%;
 }
-/* Media for xs / sm */
-@media screen and (max-width: 575px){
-    .sliders-img ul li{
-        display: inline-block;
-        width: calc((100% / 2) - 30px);
-        margin: 0 10px;
-    }
-    
-    .sliders-img ul li img{
-        max-width: 100%;
-    }
-}
-/* Media for md */
-@media screen and (max-width: 767px){
+/* Media for xs / sm / md */
+@media screen and (max-width: 992px){
     .sliders-img ul li{
         display: inline-block;
         width: calc((100% / 3) - 30px);
         margin: 0 10px;
     }
     
-    .sliders-img ul li img{
-        max-width: 100%;
-    }
 }
 
 /* DEPLOY AND SCALE (2 part main area) */
@@ -135,4 +125,8 @@ h3{
 .deploy-and-scale-left ul li a{
     color: #777777;
     text-decoration: none;
+}
+
+.deploy-and-scale-right img{
+    width: 25px;
 }

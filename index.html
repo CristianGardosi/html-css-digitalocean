@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
     <!-- NAV BAR -->
     <header class="header-navbar">
         <nav class="navbar navbar-default">
@@ -29,17 +30,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <!-- Apertura container nestato per gestione 3 sezioni -->
-                    <div class="container">
-                        <div class="row">
-                             <!-- Nav bar left (logo) -->
-                            <div class="col-lg-3">
+
                                 <a class="navbar-brand" href="#"><img src="./img/do-logo.png" alt=""></a>
                             </div>
                            <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                              <!-- Nav bar center -->
-                            <div class="col-lg-5">
                                 <ul class="nav navbar-nav navbar-center">
                                     <li>
                                         <a href="#">Products</a>
@@ -54,9 +50,7 @@
                                         <a href="#">Pricing</a>
                                     </li>
                                 </ul>
-                            </div>
-                    <!-- Nav bar right -->
-                            <div class="col-lg-4">
+                                <!-- Nav bar right -->
                                 <ul class="nav navbar-nav navbar-right">
                                     <li>
                                     <a href="#">Docs</a>
@@ -68,10 +62,9 @@
                                         <a href="#">Login</a>
                                     </li>
                                     <li>
-                                        <button type="button" class="btn btn-outline-primary">Primary</button>
+                                        <a class="btn btn-outline-primary" href="">Sign in!</a>
                                     </li>
                                 </ul>
-                            </div>
                         </div>
                     </div>
                 </div><!-- /.navbar-collapse -->
@@ -109,7 +102,9 @@
                                 <div class="form-group">
                                     <button type="button" class="btn btn-outline-primary btn-lg btn-block">Sign up with google</button>
                                 </div>
-                                <small class="text-center">By agree you accept all the <a class="text-blue" href="#">Terms of service</a></small>
+                                <div class="small-jumbo text-center">
+                                    <small>By agree you accept all the <a class="text-blue" href="#">Terms of service</a></small>
+                                </div>  
                             </form>
                         </div>
                     </div>    
@@ -167,17 +162,17 @@
         </section>
 
         <!-- DEPLOY AND SCALE (2 part main area) -->
-        <section class="deploy-and-scale">
+        <section class="deploy-and-scale mb-30">
             <div class="title-deploy text-center">
                 <div class="container">
                     <h2>Deploy and scale seamlessly</h2>
-                    <p class="text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe delectus, quia porro aliquid inventore reprehenderit molestias dolore incidunt.</p>
+                    <p class="text-grey mb-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ab amet, necessitatibus, perspiciatis saepe explicabo, non deserunt ullam recusandae culpa sit quod eaque ut iure fuga repellat labore autem cupiditate.</p>
                 </div>
             </div>
             <div class="deploy-and-scale-tab">
                 <div class="container">
                     <div class="row">
-                        <div class="col-offset-2">
+                        <div class="col-md-3 col-md-offset-1">
                             <div class="deploy-and-scale-left">
                                 <ul class="list-unstyled">
                                     <li>
@@ -194,14 +189,38 @@
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+                        <div class="col-md-7">
                             <div class="deploy-and-scale-right">
-                             
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="./img/global.png" alt="">
+                                        <h4>Complete set of building block services</h4>
+                                        <p>Choose from a wide variety of services - Compute, Networking, Storage, Database and Kubernetes - for all application types</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="./img/one-click.png" alt="">
+                                        <h4>Rich Marketplace of 1-click apps</h4>
+                                        <p> Leverage popular CMS, eCommerce, web application frameworks and developer tools - to expedite development</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="./img/optimized-compute.png" alt="">
+                                        <h4>Predictable costs and billing</h4>
+                                        <p>Always know what you’ll pay per month with a flat pricing structure across all data center regions.</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="./img/pred-pricing.png" alt="">
+                                        <h4>Cloud computing demystified</h4>
+                                        <p>Rich set of learning content around technology topics - from the basics of virtual machines to database optimizations</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
 
 
 
