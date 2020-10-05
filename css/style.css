@@ -1,7 +1,7 @@
 /* GENERAL STYLES */
 body{
     margin: 0;
-    padding: 50px 0;
+    padding-top: 50px;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -48,6 +48,10 @@ h5{
     color: #2485fd;
     border: 1px solid #2485fd;
     transition: .4s;
+}
+
+.fontaw-circles i{
+    color: #005cc7;
 }
 
 .btn-outline-primary:hover{
@@ -198,6 +202,7 @@ h5{
 
 .designed-background-container i{
     font-size: 30px;
+    color: #005cc7;
     
 }
 /* Media query md */
@@ -251,10 +256,6 @@ h5{
     padding: 30px 0;
 }
 
-.region-blue-columns .row{
-    height: 50px;
-}
-
 .region-blue-columns h5{
     margin: 0;
 }
@@ -268,6 +269,20 @@ h5{
 .region-blue-columns a:hover{
     background: blue;
 }
+
+.border-region{
+    margin-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+
+.border-region-last{
+    margin-bottom: 15px;
+}
+
+.region-left{
+    margin-right: 10px;
+}
+
 
 /* DEVELOPMENT TEAM LOVE (6part main area) */
 .dev-team-love-container{
@@ -333,3 +348,51 @@ h5{
     margin: 0;
     padding: 30px 0;
 }
+
+
+/* FOOTER */
+.footer-background{
+    position: relative;
+    background: #010e28;
+}
+
+.footer-background ul li a{
+    text-decoration: none;
+    color: #777777;
+}
+
+.footer-background img{
+    margin-bottom: 10px;
+}
+
+.footer-copy-and-liks ul li a{
+    font-size: 18px;
+    transition: .4s;
+}
+
+.footer-copy-and-liks ul li a:hover{
+    color: #7fffd4;
+}
+
+.footer-col-links ul li a,
+.col-4-foot ul li a{
+    transition: .4s;
+}
+
+.col-4-foot ul li{
+    line-height: 25px;
+}
+
+.footer-col-links ul li a:hover,
+.col-4-foot ul li a:hover{
+    color: #7fffd4;
+}
+
+.shark-help img{
+    position: fixed;
+    width: 70px;
+    right: 20px;
+    bottom: 20px;
+}
+
+
